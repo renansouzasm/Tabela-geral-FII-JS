@@ -11,7 +11,7 @@ await fetch(`https://api-simple-flask.herokuapp.com/api/${fii.nome}`).then(resp 
 ```
 
 Foram criados vários _**vetores**_ para pegar os dados de cada um dos objetos que a _**api**_ me retornava, e poder manipula-los mais facilmente.
-Exemplo de dados que a api retornou:
+Exemplo de dados que a _**api**_ retornou:
 
 ```json
 {
