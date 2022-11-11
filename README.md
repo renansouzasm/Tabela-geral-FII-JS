@@ -4,13 +4,13 @@
 
 ### Utilizando FETCH
 
-Utilizei um fetch para pegar os objetos de um json local, para conseguir pegar os nomes de cada fundo, e pesquisalos atravéz da api em outro fetch. Também foram utilizadas funções assíncronas para que o resto do código aguardasse a resposta da api para ser executado.
+Utilizei um (_**fetch**_) para pegar os objetos de um json local, para conseguir pegar os nomes de cada fundo, e pesquisalos atravéz da _**api**_ em outro (_**fetch**_). Também foram utilizadas funções assíncronas para que o resto do código aguardasse a resposta da _**api**_ para ser executado.
 
 ```javascript
 await fetch(`https://api-simple-flask.herokuapp.com/api/${fii.nome}`).then(resp => resp.json());
 ```
 
-Foram criados vários vetores para pegar os dados de cada um dos objetos que a api me retornava, e poder manipula-los mais facilmente.
+Foram criados vários _**vetores**_ para pegar os dados de cada um dos objetos que a _**api**_ me retornava, e poder manipula-los mais facilmente.
 Exemplo de dados que a api retornou:
 
 ```json
