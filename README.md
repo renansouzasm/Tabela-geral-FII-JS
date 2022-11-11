@@ -50,6 +50,6 @@ Exemplo de dados que a api retornou:
         <th>Preview | <a href="https://github.com/RenanSouz/Javascript">other javascript projects</a></th>
     </tr>
     <tr>
-        <td><img width="600px" src="https://user-images.githubusercontent.com/101893896/201253504-1c7cae2f-5ecb-44fc-90c4-a42b4854f618.png" alt="preview"/></td>
+        <td><img width="600px" src="https://user-images.githubusercontent.com/101893896/201255783-added6fa-8fd1-46c9-818c-03e31eb13c2e.png" alt="preview"/></td>
     </tr>
 </table>
